@@ -46,5 +46,29 @@ namespace SubtitlesEditor.Properties {
                 this["outputFilePath"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public long timeShift {
+            get {
+                return ((long)(this["timeShift"]));
+            }
+            set {
+                this["timeShift"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string outputFileName {
+            get {
+                return ((string)(this["outputFileName"]));
+            }
+            set {
+                this["outputFileName"] = value;
+            }
+        }
     }
 }
